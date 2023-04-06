@@ -23,3 +23,31 @@
     color: black !important;
     transition: .3s;
 } 
+
+.img-container {
+    display: grid;
+    height: 100%;
+}
+
+#chess-board {
+    max-width: 75%;
+    max-height: 75vh;
+    margin: auto;
+    padding: 50px;
+}
+
+#homepage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+    #chess-board {
+         max-width: 100%;
+         max-height: 100vh;
+    }
+}
