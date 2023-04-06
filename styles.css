@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #850044;
+    overflow-x: hidden;
+    justify-content: space-between;
+}
+
+.nav li a {
+    color: white !important;
+}
+
+.nav-pills {
+    gap: 15px;
+}
+ 
+.nav-pills li a {
+    background-color: transparent !important;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+.nav-pills li a:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: .3s;
+} 
