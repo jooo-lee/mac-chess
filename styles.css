@@ -5,6 +5,14 @@ body {
     -webkit-tap-highlight-color: transparent !important;
 }
 
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }
+
 .navbar {
     background-color: #850044;
     justify-content: space-between;
