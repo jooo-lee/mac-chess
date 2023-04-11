@@ -11,14 +11,12 @@ body {
     -ms-transition: none !important;
     -o-transition: none !important;
     transition: none !important;
-  }
+}
 
 .navbar {
     background-color: #850044;
-    justify-content: space-between;
 }
-
-.nav li a {
+.navbar-nav li a {
     color: white !important;
 }
 
