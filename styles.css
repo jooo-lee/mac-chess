@@ -14,8 +14,10 @@ body {
 }
 
 .navbar {
+    padding: 15px;
     background-color: #850044;
 }
+
 .navbar-nav li a {
     color: white !important;
 }
@@ -23,26 +25,18 @@ body {
 .nav-pills {
     gap: 15px;
 }
- 
-.nav-pills > li > a {
-    background-color: transparent !important;
-    border: 1px solid white;
-    -webkit-transition: all ease .3s;
-    -moz-transition: all ease .3s;
-    -o-transition: all ease .3s;
-    transition: all ease .3s;
-}
 
 .nav-pills > li > a:hover {
     background-color: white !important;
     color: black !important;
-} 
+}
 
-#container {
+.container-fluid {
     min-height: 100%;
     background-image: url("chess-board.jpg");
     background-size: cover;
     background-position: center;
+    padding: 0;
 }
 
 #page {
@@ -52,6 +46,8 @@ body {
 
 #puzzle {
     border: 10px solid #850044;
+    width: 400px; 
+    height: 444px;
 }
 
 h1 {
