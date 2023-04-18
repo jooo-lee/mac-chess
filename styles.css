@@ -38,7 +38,7 @@ body {
 }
 
 #puzzle {
-    border: 10px solid #850044;
+    border: 5px solid #850044;
     border-radius: 5px;
     width: 400px; 
     height: 444px;
@@ -49,4 +49,12 @@ h1 {
     background-color: #850044;
     padding: 8px;
     border-radius: 5px;
+}
+
+.card {
+    color: black;
+    background-color: white;
+    border: 5px solid #850044;
+    max-width: 600px;
+    padding: 12px;
 }
