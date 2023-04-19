@@ -1,1 +1,3 @@
-window.onload = () => {document.body.className = ""};
+window.onload = () => {
+    document.body.className = ""
+};

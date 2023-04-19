@@ -37,13 +37,6 @@ body {
     margin: 50px;
 }
 
-#puzzle {
-    border: 5px solid #850044;
-    border-radius: 5px;
-    width: 400px; 
-    height: 444px;
-}
-
 h1 {
     color: white;
     background-color: #850044;
@@ -57,4 +50,23 @@ h1 {
     border: 5px solid #850044;
     max-width: 600px;
     padding: 12px;
+}
+
+/* index.html */
+
+#puzzle {
+    border: 5px solid #850044;
+    border-radius: 5px;
+    width: 400px; 
+    height: 444px;
+}
+
+/* photos.html */
+
+#carousel {
+    width: 600px;
+}
+
+.carousel-item img {
+    height: 400px;
 }
