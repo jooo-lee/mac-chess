@@ -34,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
+    margin-top: 25px;
 }
 
 h1 {
@@ -44,12 +44,17 @@ h1 {
     border-radius: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .card {
     color: black;
     background-color: white;
     border: 5px solid #850044;
     max-width: 600px;
     padding: 12px;
+    display: block;
 }
 
 /* index.html */
@@ -64,9 +69,20 @@ h1 {
 /* photos.html */
 
 #carousel {
+    border: 5px solid #850044;
+    border-radius: 5px;
     width: 600px;
+    margin-bottom: 10px;
 }
 
 .carousel-item img {
     height: 400px;
 }
+
+/* Smaller screens */
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow: visible;
+    }
+} 
