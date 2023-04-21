@@ -89,13 +89,17 @@ a {
 
 /* Smaller screens */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 575px) {
     body {
         overflow: visible;
     }
 
     .container-fluid {
         margin-bottom: 0;
+    }
+
+    .nav-link {
+        padding: 8px 10px;
     }
 
     .footer {
