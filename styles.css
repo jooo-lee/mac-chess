@@ -1,6 +1,5 @@
 body {
     height: 100vh;
-    width: 100vw;
     overflow: hidden;
     margin: 0;
 }
@@ -29,14 +28,15 @@ body {
     background-size: cover;
     background-position: center;
     padding: 0;
-    margin-bottom: -56px;
+    position: relative;
 }
 
-#page {
+.page {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
+    padding-bottom: 56px; /* Footer height */
 }
 
 h1 {
@@ -60,9 +60,15 @@ a {
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
     color: white;
-    background-color: #850044; 
-    width: 100%; 
+    background-color: #850044;
+    width: 100%;
+}
+
+.footer-container {
+    padding-left: 15px;
 }
 
 /* index.html */
@@ -70,7 +76,7 @@ a {
 #puzzle {
     border: 5px solid #850044;
     border-radius: 5px;
-    width: 400px; 
+    width: 400px;
     height: 444px;
 }
 
@@ -94,6 +100,11 @@ a {
         overflow: visible;
     }
 
+    #puzzle {
+        width: 300px;
+        height: 344px;
+    }
+
     .container-fluid {
         margin-bottom: 0;
     }
@@ -102,8 +113,11 @@ a {
         padding: 8px 10px;
     }
 
-    .footer {
-        position: static;
-        bottom: 0;
+    #carousel {
+        width: 300px;
     }
-} 
+
+    .carousel-item img {
+        height: 200px;
+    }
+}
